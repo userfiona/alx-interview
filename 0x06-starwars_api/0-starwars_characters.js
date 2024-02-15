@@ -20,8 +20,5 @@ request(
     if (err) {
       throw err;
     } else {
-      const chars = JSON.parse(body).characters;
-      req(chars, 0);
-    }
-  }
-);
+      const chars = JSON.parse(body).chara
+
